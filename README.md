@@ -8,6 +8,7 @@ A simple hub plugin so you can teleport to the hub & set it
 5. Restart the server
 # Commands and Permissions
 Commands:
+  
   /hub - Teleports you to the hub
    
    

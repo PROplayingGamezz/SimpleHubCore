@@ -1,0 +1,25 @@
+---
+name: SimpleHubCore
+main: simplehubcore\Main
+api: 3.0.0
+version: 1.0.0
+author: PROplayingGamez
+commands:
+  hub:
+    description: Teleports you to the hub
+    permission: hub.permission
+  sethub:
+    description: Set hub
+    permission: sethub.permission
+permissions:
+  hub.permission:
+    default: true
+  sethub.permission:
+    default: op
+  hubothers.permission:
+    default: op
+  breakblocks.permission:
+    default: op
+  placeblocks.permission:
+    default: op
+...

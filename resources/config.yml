@@ -1,0 +1,26 @@
+---
+# If you want the hub command to teleport the player to a differnt server keep this as true
+DifferentServer: false
+# If "DifferentServer" is false keep these as default
+Address: "play.cliptexpe.com"
+Port: "19132"
+# If you want the players inventory to be cleared keep this true
+# This only works if "DifferentServer" is false
+ClearInventory: true
+# Put this as your world's name
+# If you don't have this as your default world it will crash!
+HubsName: "Lobby1"
+# If you didnt switch to a different server these will be true or false for your "HubsWorld"
+# "false" means they cant do it
+BlockPlace: false
+BlockBreak: false
+PvP: false
+# {name} => The players name
+# {msg} => The players message
+PlayerChatFormat: "§8[§cHub§8] §b{name} §7> §f{msg}"
+PlayerNameTag: "§8[§cHub§8] §b{name}"
+# {name} => The Players Name
+# leave them blank if you don't want a leave and join message like this ""
+PlayerJoinMessage: "§b{name} §2has joined the game"
+PlayerQuitMessage: "§b{name} §chas left the game"
+...

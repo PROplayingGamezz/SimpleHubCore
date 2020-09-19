@@ -31,6 +31,7 @@ class Main extends PluginBase implements Listener
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
         $this->getLogger()->notice("If your default world is NOT the 'HubsName' in the config then you will crash on joining");
+        $this->getLogger()->notice("SimpleHubCore enabled by PROplayingGames");
     }
 
     public function onCommand(CommandSender $s, Command $cmd, string $label, array $args): bool

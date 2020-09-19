@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PROplayingGamezz/SimpleHubCore
+build-by-default: true
+branches:
+- master
+projects:
+  SimpleHubCore:
+    path: ""
+...

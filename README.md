@@ -29,7 +29,11 @@ Permissions:
   hubothers.permission
 # About
 [x] Customizeable Config
+
 [x] Transfer to a different server
+
 [x] Playerchat, JoinMessage, and LeaveMessage
+
 [x] Effects
+
 [] Spawn with items

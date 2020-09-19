@@ -9,11 +9,21 @@ A simple hub plugin so you can teleport to the hub & set it
 # Commands and Permissions
 Commands:
   /hub - Teleports you to the hub
+   
+   
   /sethub - Set hub
+  
+  
 Permissions:
   sethub.permission
+  
+  
   breakblocks.permission
+  
+  
   placeblocks.permission
+  
+  
   hubothers.permission
 # About
 [x] Customizeable Config

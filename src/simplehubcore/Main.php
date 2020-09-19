@@ -103,7 +103,7 @@ class Main extends PluginBase implements Listener
                 break;
             case "sethub";
                 if ($s instanceof Player) {
-                    if (count($args) <= 0) {
+                    if (count($args) >= 0) {
                         if ($this->getConfig()->get("DifferentServer") == false) {
                             if ($s->hasPermission("sethub.permission")) {
                                 if ($s->getLevel() === $this->getServer()->getLevelByName($this->getConfig()->get("HubsName"))) {

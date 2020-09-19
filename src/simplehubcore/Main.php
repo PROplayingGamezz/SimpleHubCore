@@ -226,7 +226,6 @@ class Main extends PluginBase implements Listener
     {
         $p = $ev->getPlayer();
         $msg = $ev->getMessage();
-        $p->setNameTag(str_replace(["{name}"], [$p->getName()], $this->getConfig()->get("TraineeNameTag")));
         $ev->setFormat(str_replace(["{name}", "{msg}"], [$p->getName(), $msg], $this->getConfig()->get("PlayerChatFormat")));
         $p->setNameTag(str_replace(["{name}"], [$p->getName()], $this->getConfig()->get("PlayerNameTag")));
     }

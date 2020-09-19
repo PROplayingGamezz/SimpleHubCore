@@ -33,6 +33,8 @@ Permissions:
 [x] Transfer to a different server
 
 [x] Playerchat, JoinMessage, and LeaveMessage
+# Contact
+If you need to get in contact with me my discord is PROplayingGamez#9178
 
 [x] Effects
 
